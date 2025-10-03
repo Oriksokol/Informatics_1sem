@@ -1,0 +1,5 @@
+number=int(input())
+print(number%10)
+#первая цифра
+number=str(number)
+print(number[0])
