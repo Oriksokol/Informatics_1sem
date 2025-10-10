@@ -15,10 +15,12 @@ while b>1:
 for i in range(len(m)):
     if i == range(len(m)):
         output=[f"{k[i]}^{l[i]}" for i in range(len(k))]
-        print(f"{g} = {"*".join(output)}")
+        t = "*".join(output)
+        print(f"{g} = {t}")
         exit
     if m[i] in k:
-       d=k.index[m[i]]
+       o=int(m[i])
+       d=k.index[o]
        l[d]+=1
     else:
         k.append(m[i])
